@@ -1,0 +1,123 @@
+
+#part1_container {
+	margin-bottom: 10px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#part2_para {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+/*-------PART2----BEGIN------------*/
+
+#part2_container {
+	margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#_1st_dection_of_part2 {
+	margin-right: 20px;
+	width: 240%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#restaurant1 {
+
+}
+
+#restaurant2 {
+
+}
+
+.part2_section1_imgs {
+	width: 100%;
+
+}
+.part2_section1_imgs:hover{
+	
+	transform: scale(0.5%);
+
+}
+
+.part2_section2_imgs {
+	width: 100%;
+}
+.part2_section2_imgs:hover{
+
+	transform: scale(0.5%);
+}
+
+#_2nd_dection_of_part2 {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+#part2_container h4{
+	color: white;
+	position: relative;
+	text-align: center;
+	top: -50px;
+}
+
+#restaurant3 {
+
+}
+
+#restaurant4 {
+
+}
+h2{
+	text-align: center;
+	 ;
+}
+#part3_main_container{
+	text-align: center;
+	font-size: 100%;
+
+	background-color:#cccccc;
+	 
+
+}
+.name{
+	border:2px solid black;
+	width:900px;
+	margin:auto;
+
+}
+body{
+
+	background-image: url(".images/dining.my.jpeg");
+
+	
+
+}
+.btn{
+	background-color:red;
+	border:4px solid ;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor:pointer;
+}
+.btn:hover
+{
+	background-color:orange;
+}
